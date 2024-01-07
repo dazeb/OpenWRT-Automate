@@ -21,7 +21,7 @@ uci set fstab.extroot.target="${MOUNT}"
 uci commit fstab
 
 echo -e "\033[1;92mCommitting changes to fstab...\033[0m"
-if mount ${DEVICE} /mnt && tar -C ${MOUNT} -cvf - . | tar -C /mnt -xf -; then
+if mount /dev/sda1 /mnt ; tar -C /overlay -cvf - . | tar -C /mnt -xf - ; umount /mnt; then
   echo -e "\033[1;92mSuccessfully copied data to external drive.\033[0m"
 else
   echo -e "\033[1;91mFailed to copy data to external drive.\033[0m"
