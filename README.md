@@ -1,8 +1,8 @@
 # OpenWRT-Automate-BASH-Scripts 📜  
 Scripts that automate tedious tasks when dealing with OpenWRT routers. I made this because i was sick of copy pasting.
 
-Update 1 - The old documentation has some commands that have been inproved in this first update
-
+Update 1 - The old documentation has some commands that have been improved in this first update. Added `
+usb-modeswitch`
 ## What they do?  📢  
 `usb-extroot.sh` - this will format and setup any usb stick and set it to use extroot.  
 
