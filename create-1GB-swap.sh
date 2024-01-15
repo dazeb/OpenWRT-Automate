@@ -10,7 +10,7 @@ if [ ! -d "${DIR}" ]; then
 fi
 
 # Create a 100MB swap file in the target directory
-dd if=/dev/zero of=${DIR}/swap bs=1M count=100 || { echo "Failed to create swap file."; exit 1; }
+dd if=/dev/zero of="${DIR}/swap" bs=1M count=1024 || { echo "Failed to create swap file."; exit 1; }
 
 # Set up the swap file
 mkswap ${DIR}/swap || { echo "Failed to set up swap file."; exit 1; }
