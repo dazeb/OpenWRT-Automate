@@ -1,5 +1,7 @@
 # OpenWRT-Automate-BASH-Scripts 📜  
-Scripts that automate tedious tasks when dealing with OpenWRT routers. I made this because i was sick of copy pasting.
+Scripts that automate tedious tasks when dealing with OpenWRT routers. I made this because i was sick of copy pasting. Also there was some errors that needed fixing and new code for better stability. The OpenWRT code was old and a bit dated.  
+
+These scripts automate a lot fo what is in the tutorials. Just run the script and you will be updated when its complete.  For the swap script make sure to be patient as it can take a while to create a 1gb swap.
 
 Update 1 - The old documentation has some commands that have been improved in this first update. Added `usb-modeswitch`
 ## What they do?  📢  
