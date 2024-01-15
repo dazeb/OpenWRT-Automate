@@ -1,3 +1,5 @@
+#!/bin/ash
+
 # Find swap location
 DIR="$(uci -q get fstab.extroot.target)"
 
